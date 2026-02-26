@@ -5,7 +5,7 @@ Official PyTorch implementation of the paper: **"Towards Multimodal Domain Gener
 ---
 
 ## 📢 News
-* **[2025/02]** 🎉 Our paper has been accepted by **CVPR 2025**!
+* **[2026/02]** 🎉 Our paper has been accepted by **CVPR 2026**!
 
 ## 🛠️ Code & Benchmarks
 **The code, benchmarks, and pre-trained models are coming soon!** 🏗️ 
