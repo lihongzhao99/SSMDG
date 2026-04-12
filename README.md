@@ -23,7 +23,7 @@
 </div>
 
 <div style="text-align:center">
-<img src="/ssmdg.png" width="95%" height="100%">
+<img src="/ssmdg.jpg" width="95%" height="100%">
 </div>
 
 ---
@@ -33,7 +33,7 @@
 Official PyTorch implementation of the paper: **"Towards Multimodal Domain Generalization with Few Labels"**.
 
 ## 📢 News
-* **[2026/03]** 🌟 Our paper has been selected as a CVPR 2026 **Highlight**!
+* **[2026/04]** 🌟 Our paper has been selected as a CVPR 2026 **Highlight**!
 * **[2026/02]** 🎉 Our paper has been accepted by **CVPR 2026**!
 
 ## 🛠️ Code & Benchmarks
