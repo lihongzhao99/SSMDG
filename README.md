@@ -23,7 +23,7 @@
 </div>
 
 <div style="text-align:center">
-<img src="/ssmdg.jpg" width="95%" height="100%">
+<img src="/ssmdg.png" width="95%" height="100%">
 </div>
 
 ---
