@@ -8,7 +8,6 @@
     <a href='https://github.com/lihongzhao99/SSMDG' target='_blank'>Hualei Wan</a><sup>1</sup>&emsp;
     <a href='https://github.com/lihongzhao99/SSMDG' target='_blank'>Shupan Li</a><sup>1</sup>&emsp;
     <a href='https://github.com/lihongzhao99/SSMDG' target='_blank'>Mingliang Xu</a><sup>1</sup>
-    <br>
     <a href='https://m-haris-khan.com/' target='_blank'>Muhammad Haris Khan</a><sup>3</sup>
 </div>
 <br>
