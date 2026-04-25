@@ -174,8 +174,8 @@ The training scripts require explicit command-line settings for source domains, 
 
 <table>
   <colgroup>
-    <col width="32%">
-    <col width="68%">
+    <col width="36%">
+    <col width="64%">
   </colgroup>
   <thead>
     <tr>
@@ -185,39 +185,39 @@ The training scripts require explicit command-line settings for source domains, 
   </thead>
   <tbody>
     <tr>
-      <td><code>-s</code>, <code>--source_domain</code></td>
+      <td nowrap><code>-s</code>, <code>--source_domain</code></td>
       <td>Source domains used for training. Two source domains are used in the examples below.</td>
     </tr>
     <tr>
-      <td><code>-t</code>, <code>--target_domain</code></td>
+      <td nowrap><code>-t</code>, <code>--target_domain</code></td>
       <td>Held-out target domain used for testing.</td>
     </tr>
     <tr>
-      <td><code>--datapath</code></td>
+      <td nowrap><code>--datapath</code></td>
       <td>Root directory of the prepared dataset.</td>
     </tr>
     <tr>
-      <td><code>--semi_setting</code></td>
+      <td nowrap><code>--semi_setting</code></td>
       <td>Semi-supervised protocol: <code>number</code>, <code>ratio</code>, or <code>domain</code>.</td>
     </tr>
     <tr>
-      <td><code>--semi_value</code></td>
+      <td nowrap><code>--semi_value</code></td>
       <td>Labeled amount. Use <code>5</code> or <code>10</code> for <code>number</code>, and <code>0.05</code> or <code>0.10</code> for <code>ratio</code>. This argument is unused for <code>domain</code>.</td>
     </tr>
     <tr>
-      <td><code>--unlabeled_domains</code></td>
+      <td nowrap><code>--unlabeled_domains</code></td>
       <td>Source domain(s) treated as fully unlabeled under the <code>domain</code> setting.</td>
     </tr>
     <tr>
-      <td><code>--use_video</code></td>
+      <td nowrap><code>--use_video</code></td>
       <td>Use RGB/video modality.</td>
     </tr>
     <tr>
-      <td><code>--use_flow</code></td>
+      <td nowrap><code>--use_flow</code></td>
       <td>Use optical-flow modality.</td>
     </tr>
     <tr>
-      <td><code>--use_audio</code></td>
+      <td nowrap><code>--use_audio</code></td>
       <td>Use audio modality.</td>
     </tr>
   </tbody>
