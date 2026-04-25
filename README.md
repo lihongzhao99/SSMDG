@@ -172,17 +172,56 @@ The training scripts require explicit command-line settings for source domains, 
 
 ### 🧾 Common Arguments
 
-| Argument | Description |
-| --- | --- |
-| `-s`, `--source_domain` | Source domains used for training. Two source domains are used in the examples below. |
-| `-t`, `--target_domain` | Held-out target domain used for testing. |
-| `--datapath` | Root directory of the prepared dataset. |
-| `--semi_setting` | Semi-supervised protocol: `number`, `ratio`, or `domain`. |
-| `--semi_value` | Labeled amount. Use `5` or `10` for `number`, and `0.05` or `0.10` for `ratio`. This argument is unused for `domain`. |
-| `--unlabeled_domains` | Source domain(s) treated as fully unlabeled under the `domain` setting. |
-| `--use_video` | Use RGB/video modality. |
-| `--use_flow` | Use optical-flow modality. |
-| `--use_audio` | Use audio modality. |
+<table>
+  <colgroup>
+    <col width="32%">
+    <col width="68%">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Argument</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>-s</code>, <code>--source_domain</code></td>
+      <td>Source domains used for training. Two source domains are used in the examples below.</td>
+    </tr>
+    <tr>
+      <td><code>-t</code>, <code>--target_domain</code></td>
+      <td>Held-out target domain used for testing.</td>
+    </tr>
+    <tr>
+      <td><code>--datapath</code></td>
+      <td>Root directory of the prepared dataset.</td>
+    </tr>
+    <tr>
+      <td><code>--semi_setting</code></td>
+      <td>Semi-supervised protocol: <code>number</code>, <code>ratio</code>, or <code>domain</code>.</td>
+    </tr>
+    <tr>
+      <td><code>--semi_value</code></td>
+      <td>Labeled amount. Use <code>5</code> or <code>10</code> for <code>number</code>, and <code>0.05</code> or <code>0.10</code> for <code>ratio</code>. This argument is unused for <code>domain</code>.</td>
+    </tr>
+    <tr>
+      <td><code>--unlabeled_domains</code></td>
+      <td>Source domain(s) treated as fully unlabeled under the <code>domain</code> setting.</td>
+    </tr>
+    <tr>
+      <td><code>--use_video</code></td>
+      <td>Use RGB/video modality.</td>
+    </tr>
+    <tr>
+      <td><code>--use_flow</code></td>
+      <td>Use optical-flow modality.</td>
+    </tr>
+    <tr>
+      <td><code>--use_audio</code></td>
+      <td>Use audio modality.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 🎛️ Modality Combinations
 
